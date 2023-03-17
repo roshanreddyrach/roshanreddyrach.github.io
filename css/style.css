@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    text-shadow: 0 0 5px blueviolet;
+
+
+}
+
+body{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header section */
+header{
+    display: flex;
+    justify-content:space-between;
+}
+.logo-txt{
+    transform: scale(1,1);
+    transition: transform 0.5s ease-in-out;
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.logo-txt a{
+    text-decoration: none;
+    color: white;
+}
+.logo-txt:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+/* nav section */
+
+nav{
+    padding: 1rem;
+}
+.nav-list{
+    display: flex;
+    justify-content:center;
+    flex-flow: row;
+}
+.list-item{
+    transform: scale(1,1);
+    transition: transform 0.5s ease-in-out;
+}
+.list-item a{
+    text-decoration: none;
+    color: white;
+    padding-right: 1.5rem;
+
+}
+
+.list-item:hover{
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
+/* nav section */
+
+/* header section */
+
+/* section1 */
+
+.highlights{
+    font-size: 5rem;
+    color: white;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    text-align: center;
+}
+/* section1 */
+
+/* section2 */
+
+.about{
+    display: flex;
+    flex-flow: row;
+    color: whitesmoke;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+.pic{
+    width: 500px;
+    height: 400px;
+    clip-path: circle();
+}
+.intro{
+    margin: 1.5rem;
+    font-size: 1.1rem;
+}
+.specialization{
+    text-align: center;
+    margin: 2rem;
+}
+.spec{
+    width:45%;
+    height:500px;
+    object-fit:fill;
+    border-radius: 40px;
+
+}
+/* section2 */
+
+/* section3 */
+.work{
+text-align: center;
+}
+
+.sub-heading{
+    font-size: 3rem;
+    color: white;
+}
+/* section3 */
+
+
