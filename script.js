@@ -103,7 +103,7 @@ window.onscroll = () => {
     navList.classList.remove("open")
 }
 
-// toggle icon navbar ///////////////////////////////////////
+// parallax ///////////////////////////////////////
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -115,11 +115,11 @@ const observer = new IntersectionObserver((entries) => {
     })
 })
 
-const scrollScale = document.querySelectorAll("scroll-scale")
+const scrollScale = document.querySelectorAll(".scroll-scale")
 scrollScale.forEach((el) => observer.observe(el))
 
-const scrollBottom = document.querySelectorAll("scroll-bottom")
+const scrollBottom = document.querySelectorAll(".scroll-bottom")
 scrollBottom.forEach((el) => observer.observe(el))
 
-const scrollTop = document.querySelectorAll("scroll-top")
+const scrollTop = document.querySelectorAll(".scroll-top")
 scrollTop.forEach((el) => observer.observe(el))
