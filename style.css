@@ -365,6 +365,7 @@ section{
     color: var(--hover-color);
     font-weight: 700;
     font-size: var(--normal--font);
+    margin-bottom: .2rem;
 }
 
 .about-content h3{
@@ -377,6 +378,7 @@ section{
     color: #fdfdfd;
     font-weight: 300;
     margin-bottom: 1.5rem;
+    letter-spacing: 1px;
 }
 
 .info-about1,
@@ -709,6 +711,7 @@ section{
 
 .port-box:hover .port-image img{
     transform: scale(1.1);
+    opacity: .5;
 }
 
 .port-content h3{
