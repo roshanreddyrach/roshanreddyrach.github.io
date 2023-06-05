@@ -125,7 +125,7 @@ const scrollTop = document.querySelectorAll(".scroll-top")
 scrollTop.forEach((el) => observer.observe(el))
 
 
-// Email Send ///////////////////////////////////////
+// Two Way Mailing Feature ///////////////////////////////////////
 
 
 function sendMail(){
